@@ -6,9 +6,10 @@ Recurrent of paper: Simulation of ARM and x86 Microprocessors Using In-order and
 - environmental requirements
 
   ```shell
-  gem5
-  numpy
-  matplotlib
+  # The author's experimental environment. Maybe it can run with a slightly lower version
+  gem5 version 23.0.1.0
+  numpy>=1.24.4
+  matplotlib>=1.3.4
   ```
 
 - how to run the program
@@ -21,10 +22,10 @@ Recurrent of paper: Simulation of ARM and x86 Microprocessors Using In-order and
   cd Simulation-of-X86-and-Arm-using-gem5
   
   # run the simulation, it may take a long time
-  python3 
+  python3 run_benchmark.py
   
   # analysis the result
-  python3
+  python3 result_analysis.py
   ```
 
   

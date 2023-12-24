@@ -30,7 +30,7 @@ cache_size_list = [('32kB','512kB'),  ('64kB','1MB')]
 output_root_path = os.path.join(cur_root, 'benchmark_output')
 
 # number of repetitions per simulation
-num_repeat_per_sim = 1
+num_repeat_per_sim = 4
 
 # the location where indicator datas are saved after each simulation
 stats_path = os.path.join(cur_root, 'm5out/stats.txt')
