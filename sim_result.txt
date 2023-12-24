@@ -1,0 +1,320 @@
+benchmark=basicmath
+isa=arm
+cpu-type=inorder, L1=32kB, L2=512kB
+CPI=1.281238
+L2CacheMissRate=0.001669
+TotalEnergy=862.884601313007
+Throughput=515.2392578125
+
+benchmark=basicmath
+isa=arm
+cpu-type=inorder, L1=64kB, L2=1MB
+CPI=1.164727
+L2CacheMissRate=0.009335
+TotalEnergy=832.1594725376999
+Throughput=567.376953125
+
+benchmark=basicmath
+isa=arm
+cpu-type=outoforder, L1=32kB, L2=512kB
+CPI=0.658515
+L2CacheMissRate=0.002679
+TotalEnergy=705.5139821102281
+Throughput=989.8017578125
+
+benchmark=basicmath
+isa=arm
+cpu-type=outoforder, L1=64kB, L2=1MB
+CPI=0.616499
+L2CacheMissRate=0.015162
+TotalEnergy=694.4243583676159
+Throughput=1064.02734375
+
+benchmark=basicmath
+isa=x86
+cpu-type=inorder, L1=32kB, L2=512kB
+CPI=2.944914
+L2CacheMissRate=0.00181
+TotalEnergy=234.907993030594
+Throughput=706.39453125
+
+benchmark=basicmath
+isa=x86
+cpu-type=inorder, L1=64kB, L2=1MB
+CPI=2.703131
+L2CacheMissRate=0.008387
+TotalEnergy=223.46585509626
+Throughput=770.513671875
+
+benchmark=basicmath
+isa=x86
+cpu-type=outoforder, L1=32kB, L2=512kB
+CPI=0.778769
+L2CacheMissRate=0.004693
+TotalEnergy=134.86417923432
+Throughput=2414.822265625
+
+benchmark=basicmath
+isa=x86
+cpu-type=outoforder, L1=64kB, L2=1MB
+CPI=0.711728
+L2CacheMissRate=0.019553
+TotalEnergy=131.741718262296
+Throughput=2647.61328125
+
+benchmark=dijkstra
+isa=arm
+cpu-type=inorder, L1=32kB, L2=512kB
+CPI=1.251584
+L2CacheMissRate=0.017726
+TotalEnergy=138.935331658275
+Throughput=2146.6025390625
+
+benchmark=dijkstra
+isa=arm
+cpu-type=inorder, L1=64kB, L2=1MB
+CPI=1.233949
+L2CacheMissRate=0.034445
+TotalEnergy=138.20278801342297
+Throughput=2177.2802734375
+
+benchmark=dijkstra
+isa=arm
+cpu-type=outoforder, L1=32kB, L2=512kB
+CPI=0.60926
+L2CacheMissRate=0.021405
+TotalEnergy=112.740997829256
+Throughput=4330.1005859375
+
+benchmark=dijkstra
+isa=arm
+cpu-type=outoforder, L1=64kB, L2=1MB
+CPI=0.603577
+L2CacheMissRate=0.053274
+TotalEnergy=112.49088139729501
+Throughput=4375.6005859375
+
+benchmark=dijkstra
+isa=x86
+cpu-type=inorder, L1=32kB, L2=512kB
+CPI=2.720969
+L2CacheMissRate=0.030559
+TotalEnergy=198.73829326556
+Throughput=1172.033203125
+
+benchmark=dijkstra
+isa=x86
+cpu-type=inorder, L1=64kB, L2=1MB
+CPI=2.688872
+L2CacheMissRate=0.272694
+TotalEnergy=197.40856872439997
+Throughput=1186.0234375
+
+benchmark=dijkstra
+isa=x86
+cpu-type=outoforder, L1=32kB, L2=512kB
+CPI=0.574357
+L2CacheMissRate=0.028246
+TotalEnergy=111.225745910131
+Throughput=5179.6220703125
+
+benchmark=dijkstra
+isa=x86
+cpu-type=outoforder, L1=64kB, L2=1MB
+CPI=0.552583
+L2CacheMissRate=0.253495
+TotalEnergy=110.32793915609301
+Throughput=5383.7216796875
+
+benchmark=qsort
+isa=arm
+cpu-type=inorder, L1=32kB, L2=512kB
+CPI=2.103036
+L2CacheMissRate=0.582465
+TotalEnergy=58.494591806063994
+Throughput=255993.6611328125
+
+benchmark=qsort
+isa=arm
+cpu-type=inorder, L1=64kB, L2=1MB
+CPI=1.928775
+L2CacheMissRate=0.447363
+TotalEnergy=55.24880562634
+Throughput=188032.4638671875
+
+benchmark=qsort
+isa=arm
+cpu-type=outoforder, L1=32kB, L2=512kB
+CPI=1.079489
+L2CacheMissRate=0.582393
+TotalEnergy=44.248172761305
+Throughput=498709.9228515625
+
+benchmark=qsort
+isa=arm
+cpu-type=outoforder, L1=64kB, L2=1MB
+CPI=0.962353
+L2CacheMissRate=0.447282
+TotalEnergy=41.929120010769005
+Throughput=376823.5234375
+
+benchmark=qsort
+isa=x86
+cpu-type=inorder, L1=32kB, L2=512kB
+CPI=3.494052
+L2CacheMissRate=0.554856
+TotalEnergy=84.53875838987
+Throughput=159068.9130859375
+
+benchmark=qsort
+isa=x86
+cpu-type=inorder, L1=64kB, L2=1MB
+CPI=3.321859
+L2CacheMissRate=0.431419
+TotalEnergy=80.884173669538
+Throughput=116299.787109375
+
+benchmark=qsort
+isa=x86
+cpu-type=outoforder, L1=32kB, L2=512kB
+CPI=1.065326
+L2CacheMissRate=0.535201
+TotalEnergy=47.973734656035994
+Throughput=475080.21875
+
+benchmark=qsort
+isa=x86
+cpu-type=outoforder, L1=64kB, L2=1MB
+CPI=0.978714
+L2CacheMissRate=0.42763
+TotalEnergy=45.964928425908
+Throughput=358390.7919921875
+
+benchmark=bitcnts
+isa=arm
+cpu-type=inorder, L1=32kB, L2=512kB
+CPI=1.052963
+L2CacheMissRate=0.550336
+TotalEnergy=129.894199554276
+Throughput=1205.2705078125
+
+benchmark=bitcnts
+isa=arm
+cpu-type=inorder, L1=64kB, L2=1MB
+CPI=1.052715
+L2CacheMissRate=0.807692
+TotalEnergy=129.880259987726
+Throughput=1206.9169921875
+
+benchmark=bitcnts
+isa=arm
+cpu-type=outoforder, L1=32kB, L2=512kB
+CPI=0.534281
+L2CacheMissRate=0.644846
+TotalEnergy=108.85290070283999
+Throughput=2251.927734375
+
+benchmark=bitcnts
+isa=arm
+cpu-type=outoforder, L1=64kB, L2=1MB
+CPI=0.534155
+L2CacheMissRate=0.876907
+TotalEnergy=108.84485252868
+Throughput=2265.8828125
+
+benchmark=bitcnts
+isa=x86
+cpu-type=inorder, L1=32kB, L2=512kB
+CPI=2.41539
+L2CacheMissRate=0.736842
+TotalEnergy=166.5116762922
+Throughput=868.806640625
+
+benchmark=bitcnts
+isa=x86
+cpu-type=inorder, L1=64kB, L2=1MB
+CPI=2.41529
+L2CacheMissRate=0.877497
+TotalEnergy=166.50778574312199
+Throughput=870.1630859375
+
+benchmark=bitcnts
+isa=x86
+cpu-type=outoforder, L1=32kB, L2=512kB
+CPI=0.675603
+L2CacheMissRate=0.883808
+TotalEnergy=103.05184387119999
+Throughput=2782.7470703125
+
+benchmark=bitcnts
+isa=x86
+cpu-type=outoforder, L1=64kB, L2=1MB
+CPI=0.675554
+L2CacheMissRate=0.97037
+TotalEnergy=103.050164088084
+Throughput=2782.947265625
+
+benchmark=patricia
+isa=arm
+cpu-type=inorder, L1=32kB, L2=512kB
+CPI=2.310677
+L2CacheMissRate=0.003012
+TotalEnergy=372.728857815693
+Throughput=4926.6201171875
+
+benchmark=patricia
+isa=arm
+cpu-type=inorder, L1=64kB, L2=1MB
+CPI=1.621451
+L2CacheMissRate=0.00866
+TotalEnergy=314.02975617971407
+Throughput=5406.99609375
+
+benchmark=patricia
+isa=arm
+cpu-type=outoforder, L1=32kB, L2=512kB
+CPI=1.100615
+L2CacheMissRate=0.004833
+TotalEnergy=271.37855703712796
+Throughput=10259.0078125
+
+benchmark=patricia
+isa=arm
+cpu-type=outoforder, L1=64kB, L2=1MB
+CPI=0.740962
+L2CacheMissRate=0.013963
+TotalEnergy=240.962450027089
+Throughput=11836.0078125
+
+benchmark=patricia
+isa=x86
+cpu-type=inorder, L1=32kB, L2=512kB
+CPI=3.801562
+L2CacheMissRate=0.004362
+TotalEnergy=416.168376565348
+Throughput=7442.6103515625
+
+benchmark=patricia
+isa=x86
+cpu-type=inorder, L1=64kB, L2=1MB
+CPI=3.264016
+L2CacheMissRate=0.008024
+TotalEnergy=376.86621365893205
+Throughput=6406.9873046875
+
+benchmark=patricia
+isa=x86
+cpu-type=outoforder, L1=32kB, L2=512kB
+CPI=1.225326
+L2CacheMissRate=0.008764
+TotalEnergy=235.69690147772
+Throughput=22761.7587890625
+
+benchmark=patricia
+isa=x86
+cpu-type=outoforder, L1=64kB, L2=1MB
+CPI=0.916907
+L2CacheMissRate=0.016399
+TotalEnergy=213.77155869931198
+Throughput=22449.5888671875
+
